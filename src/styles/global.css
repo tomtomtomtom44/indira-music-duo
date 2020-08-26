@@ -39,3 +39,8 @@ strong {
 a {
     color: #e81c4f;
   }
+
+.liens {
+  display: flex;
+    justify-content: space-between; 
+}

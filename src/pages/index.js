@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import nazila_welcome from "./nazila_welcome.jpg"
 import Layout from "../components/layout"

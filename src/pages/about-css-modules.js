@@ -1,7 +1,6 @@
 import React from "react"
 import Container from "../components/container"
 import styles from "./about-css-modules.module.css"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 const User = props => (

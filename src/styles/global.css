@@ -1,41 +1,59 @@
 html {
-    background-color: lavenderblush;
-  }
+  background-color: lavenderblush;
+}
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
-    margin: 0 auto;
-    max-width: 50em;
-  }
+  margin: 0 auto;
+  max-width: 50em;
+}
 
-  body {
-    font-family: "Helvetica", "Arial", sans-serif;
-  }
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
 
-  body {
-    line-height: 1.5;
-    padding: 4em 1em;
-  }
-  
-  h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-  }
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
 
-  body {
-    color: #555;
-  }
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
 
-  h1,
+body {
+  color: #555;
+}
+
+h1,
 h2,
 strong {
   color: #333;
 }
 
 a {
-    color: #e81c4f;
+  color: #e81c4f;
+}
+
+.lead img {
+  display: block;
+  border-radius: 16px;
+  max-width: 250px;
+}
+
+@media screen and (min-width: 800px) {
+  .lead img {
+    max-width: 480px;
   }
+}
+
+@media screen and (min-width: 1000px) {
+  .lead img {
+    max-width: 650px;
+  }
+}
